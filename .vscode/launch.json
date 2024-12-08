@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ClientServiceApplication<client-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.igor.client_service.ClientServiceApplication",
+            "projectName": "client-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ResourceServerApplication<resource-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.igor.resource_server.ResourceServerApplication",
+            "projectName": "resource-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
